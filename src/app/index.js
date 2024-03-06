@@ -1,8 +1,8 @@
 // pages/index.js
 
-//import Home from '../components/Home';
-import About from './components/About.jsx';
-//import Contact from '../components/Contact';
+import Home from '../components/Home';
+import About from '../components/About';
+import Contact from '../components/Contact';
 import Link from 'next/link';
 
 export default function IndexPage() {
@@ -16,9 +16,9 @@ export default function IndexPage() {
                 </ul>
             </nav>
             <main>
-                
+                <Home />
                 <About />
-                
+                <Contact />
             </main>
         </div>
     );
